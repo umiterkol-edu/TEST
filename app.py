@@ -7,7 +7,7 @@ import numpy as np
 from openpyxl.styles import Font, PatternFill
 
 st.set_page_config(page_title="Katsayı Hesaplama", layout="centered")
-st.title("📊 Katsayı Hesaplama Aracı")
+st.title("📊 Puan Hesaplama Aracı")
 
 if 'veriler' not in st.session_state:
     st.session_state['veriler'] = []
